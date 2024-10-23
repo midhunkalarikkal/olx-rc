@@ -2,14 +2,14 @@
 const Header = () => {
     return (
       <div className="w-full flex p-1 bg-slate-100">
-        <div className="w-[20%] py-1 flex px-6 items-center">
+        <div className="w-[20%] flex px-6 items-center">
           <img
             className="invert w-[20%]"
             src="https://statics.olx.in/external/base/img/cartrade/logo/olx.svg?v=1"
             alt="Logo"
           />
           <input
-            className="w-[80%] mx-3 h-12 py-2 px-6 border-2 rounded-md"
+            className="w-[80%] mx-3 h-12 py-2 px-6 border-2 rounded-sm"
             style={{
               borderColor: "#002f34",
               borderWidth: "2px",
@@ -19,9 +19,9 @@ const Header = () => {
             placeholder="India"
           />
         </div>
-        <div className="w-[60%] flex py-1 items-center">
+        <div className="w-[60%] flex items-center">
           <input
-            className="w-[96%] h-12 p-2 border-2 rounded-l-md"
+            className="w-[96%] h-12 p-2 border-2 rounded-l-sm"
             style={{
               borderColor: "#002f34",
               borderWidth: "2px",
@@ -30,7 +30,7 @@ const Header = () => {
             type="text"
             placeholder="Find Cars. Mobile Phones and more...."
           />
-          <button className="w-[4%] h-12 rounded-r-md px-6 flex justify-center items-center" style={{
+          <button className="w-[4%] h-12 rounded-r-sm px-6 flex justify-center items-center" style={{
               backgroundColor: "#002f34"
             }}>🔍</button>
         </div>
