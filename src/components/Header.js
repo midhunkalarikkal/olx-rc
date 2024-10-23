@@ -1,7 +1,7 @@
 
 const Header = () => {
     return (
-      <div className="w-full flex p-1 bg-slate-100 border-b-4 border-white">
+      <div className="w-full flex p-1 bg-slate-100">
         <div className="w-[20%] py-1 flex px-6 items-center">
           <img
             className="invert w-[20%]"
@@ -9,7 +9,7 @@ const Header = () => {
             alt="Logo"
           />
           <input
-            className="w-[80%] mx-3 h-12 p-2 border-2 rounded-md"
+            className="w-[80%] mx-3 h-12 py-2 px-6 border-2 rounded-md"
             style={{
               borderColor: "#002f34",
               borderWidth: "2px",
