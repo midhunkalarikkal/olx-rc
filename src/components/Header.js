@@ -61,21 +61,21 @@ const Header = () => {
       </div>
       <div className="relative w-[7%] mt-1">
         <div>
-          <div className="bg-cyan-400 rounded-t-lg flex justify-center">b</div>
+          <div className="bg-cyan-400 rounded-t-3xl flex justify-center">b</div>
           <div className="flex w-full">
-            <div className="bg-yellow-400 w-[50%] rounded-bl-lg flex justify-center">
+            <div className="bg-yellow-400 w-[50%] rounded-bl-3xl flex justify-center">
               b
             </div>
-            <div className="bg-blue-600 w-[50%] rounded-br-lg flex justify-center">
+            <div className="bg-blue-600 w-[50%] rounded-br-3xl flex justify-center">
               b
             </div>
           </div>
         </div>
         <button
-          className="w-[90%] h-[70%] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[57%] bg rounded-md font-semibold text-lg"
+          className="w-[90%] h-[70%] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[57%] bg rounded-2xl font-semibold text-xl"
           style={{ background: "#f0f0f2" }}
         >
-          + Sell
+          <span className="">+</span> Sell
         </button>
       </div>
     </div>
