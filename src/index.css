@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom-border {
+  border-top: 4px solid #0fd6c9; /* Cyan */
+  border-right: 4px solid #d9cb04; /* Yellow */
+  border-bottom: 4px solid #0e49eb; /* Blue */
+  border-left: 4px solid #d9cb04; /* Yellow */
+}
+
+.custom-border {
+  /* Optional: If you want to add more styling to make the button more visually appealing */
+  position: relative; /* Position relative for pseudo-elements if needed */
+  overflow: hidden; /* To clip any children that overflow the button */
+}

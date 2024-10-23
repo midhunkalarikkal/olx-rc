@@ -22,7 +22,7 @@ const ItemCard = ({ data }) => {
         />
       </div>
       <div className="flex flex-col p-4 space-y-2">
-        <h5 className="text-lg font-semibold text-gray-800">₹ {display}</h5>
+        <h5 className="text-lg font-semibold text-gray-800">{display}</h5>
         <p className="text-sm text-gray-600">{description.slice(0, 20)}.....</p>
         <div className="flex justify-between text-sm text-gray-500">
           <p>{ADMIN_LEVEL_3_name +" "+ADMIN_LEVEL_1_name}</p>
