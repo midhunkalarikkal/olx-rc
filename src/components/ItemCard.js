@@ -14,7 +14,7 @@ const ItemCard = ({ data }) => {
   
   return (
     <div className="flex flex-col bg-white rounded-lg overflow-hidden border border-gray-300 w-[24%] m-1">
-      <div className="h-[150px]">
+      <div className="h-[180px]">
         <img
           className="w-full h-full object-contain"
           src={url}
