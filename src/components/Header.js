@@ -1,7 +1,7 @@
 
 const Header = () => {
     return (
-      <div className="w-full flex p-1 bg-slate-100">
+      <div className="w-full flex p-1 border-b-4 border-white shadow-lg" style={{backgroundColor : "#f0f0f2"}}>
         <div className="w-[20%] flex px-6 items-center">
           <img
             className="invert w-[20%]"
