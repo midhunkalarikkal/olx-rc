@@ -63,10 +63,10 @@ const Header = () => {
         <div>
           <div className="bg-cyan-400 rounded-t-3xl flex justify-center">b</div>
           <div className="flex w-full">
-            <div className="bg-yellow-400 w-[50%] rounded-bl-3xl flex justify-center">
+            <div className="bg-yellow-400 w-[50%] rounded-bl-3xl flex justify-center shadow-lg">
               b
             </div>
-            <div className="bg-blue-600 w-[50%] rounded-br-3xl flex justify-center">
+            <div className="bg-blue-600 w-[50%] rounded-br-3xl flex justify-center shadow-lg">
               b
             </div>
           </div>
